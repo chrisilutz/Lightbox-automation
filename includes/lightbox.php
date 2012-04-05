@@ -30,7 +30,7 @@
 <!-- generate HTML !-->
 <p>
 <?php
-$allebilder = scandir($folder_src); // Sortierung A-Z
+$allebilder = scandir($folder_src); // Sort A-Z
  
 foreach ($allebilder as $bild) {
     $bildinfo = pathinfo($folder_src."/".$bild);
